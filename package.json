@@ -1,0 +1,44 @@
+{
+  "name": "react-deep-match",
+  "version": "1.0.0",
+  "description": "a deep regex match component for react",
+  "main": "lib/index.js",
+  "types": "lib/index.d.js",
+  "scripts": {
+    "build": "webpack --define process.env.NODE_ENV=\"'production'\"",
+    "build:dist": "webpack -p --output-path=\"./dist\"",
+    "prepublish": "npm run build",
+    "start": "webpack-dev-server --config ./demo/webpack.config.js"
+  },
+  "keywords": [
+    "react-deep-match",
+    "deep-match",
+    "highlight",
+    "match",
+    "react",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dt-fe/react-deep-match.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dt-fe/react-deep-match/issues"
+  },
+  "homepage": "https://github.com/dt-fe/react-deep-match",
+  "author": "solesnip@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^15.0.22",
+    "@types/react-dom": "^0.14.23",
+    "@types/webpack-env": "^1.13.0",
+    "awesome-typescript-loader": "^3.1.2",
+    "css-loader": "^0.28.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "style-loader": "^0.16.1",
+    "typescript": "^2.2.2",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
