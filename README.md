@@ -28,7 +28,7 @@ text={<p>
 </p>}
 find="test"
 />
-//result:
+// result:
 <div>
   <p>
     <div><span class="matched">test</span>value</div>
@@ -47,7 +47,7 @@ And component support Regex match, and custom match wrap;
     return <i class="number">{matched}</i>;
   }}
 />
-//result:
+// result:
 <div><p>
   <span>testvalue<i class="number">{123}</i>test</span>
 </p></div>
