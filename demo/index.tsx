@@ -46,6 +46,9 @@ class App extends React.Component<any, State> {
     }
     return regex;
   }
+  warpMatches = (match: string) => {
+    return <span className="highlight">{match}</span>;
+  }
   render() {
     const { find } = this.state;
 
@@ -54,7 +57,7 @@ class App extends React.Component<any, State> {
         <div className="header">Type a regular expression here:
           <input value={String(find)} onChange={this.updateInputValue}/>
         </div>
-        <DeepMatch text={text} find={this.getRegExp(find)} />
+        <DeepMatch text={text} find={this.getRegExp(find)} wrap={this.warpMatches}/>
         <br/>
         <br/>
         <br/>
