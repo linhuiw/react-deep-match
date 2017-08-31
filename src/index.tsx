@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { escapeRegExp } from './utils';
-import * as _ from 'lodash';
+const cloneDeep: any = require('lodash.clonedeep');
 
 export interface DeepMatchProps {
   text: string | React.ReactNode;
@@ -16,7 +16,7 @@ const deepReplace = (text: string | any, reg: RegExp, _wrap: Function) => {
     });
     return result;
   } else {
-    const _text = _.cloneDeep(text); // can not modify props, cloneDeep text props;
+    const _text = cloneDeep(text); // can not modify props, cloneDeep text props;
     if (
       Array.isArray(_text.props.children) &&
       _text.props.children &&
