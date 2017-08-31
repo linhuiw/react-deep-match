@@ -62,9 +62,9 @@ import DeepMatch from 'react-deep-match';
 ## API
 Reac-deep-match supports these props;
 
-- text(string | ReactNode) text or ReactNode, you want to search for
-- find(string | RegExp) text or a RegExp, the rules you want to match text
-- wrap(Function) a Function, you want to wrap your matched texts, argument is the matched text
+- text(string | ReactNode): Text or ReactNode, you want to search for
+- find(string | RegExp): Text or a RegExp, the rules you want to match text
+- wrap(Function): A Function, you want to wrap your matched texts, argument is the matched text
 
 ## Related
 
