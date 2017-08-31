@@ -1,6 +1,5 @@
 const path = require('path');
 
-console.log(path.resolve(__dirname, 'build'), '====');
 module.exports = {
   entry: ['./demo/index'],
   watch: true,
