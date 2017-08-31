@@ -19,10 +19,13 @@ import DeepMatch from 'react-deep-match';
 Also component support reactNode deep Match
 
 ```javascript
-<DeepMatch text={<p>
+<DeepMatch
+text={<p>
   <div>testvalue</div>
   <span>valuetest2</span>
-</p>} find="test" />
+</p>}
+find="test"
+/>
 //result:
 <div>
   <p>
