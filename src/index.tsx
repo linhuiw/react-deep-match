@@ -39,12 +39,12 @@ const defaultMath = (match: string) => {
 
 const DeepMatch: React.SFC<DeepMatchProps> = ({ text, find, wrap }) => {
   if (!text || !find) {
-    return <span>{text}</span>;
+    return <div>{text}</div>;
   }
   const reg = typeof find === 'string' ? RegExp(escapeRegExp(find), 'g') : find;
   const _wrap = wrap || defaultMath;
   const result = deepReplace(text, reg, _wrap);
-  return <span>{result}</span>;
+  return <div>{result}</div>;
 };
 
 export default DeepMatch;
