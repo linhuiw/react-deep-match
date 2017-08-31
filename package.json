@@ -1,9 +1,9 @@
 {
   "name": "react-deep-match",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a deep regex match component for react",
   "main": "lib/index.js",
-  "types": "lib/index.d.js",
+  "types": "lib/src/index.d.ts",
   "scripts": {
     "build": "webpack --define process.env.NODE_ENV=\"'production'\"",
     "build:dist": "webpack -p --output-path=\"./dist\"",
