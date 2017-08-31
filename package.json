@@ -9,7 +9,7 @@
     "build:dist": "webpack -p --output-path=\"./dist\"",
     "prepublish": "npm run build",
     "start": "webpack-dev-server --config ./demo/webpack.config.js",
-    "build:demo": "webpack -p --output-path=\"./dist\""
+    "build:demo": "webpack --config ./demo/webpack.config.js -p --output-path=\"./dist\""
   },
   "keywords": [
     "react-deep-match",

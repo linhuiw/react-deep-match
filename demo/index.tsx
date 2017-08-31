@@ -7,7 +7,7 @@ require<any>('./index.css');
 const text = (
   <div>
     <p>
-      Welcome to RegExr v2.1 by gskinner.com, proudly hosted by Media Temple!
+      This is a demo for React deep match.
     </p>
     <p>Edit the Expression & Text to see matches. </p>
     <p><b>Sample text for testing:</b></p>
