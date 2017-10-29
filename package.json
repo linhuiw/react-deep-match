@@ -26,7 +26,7 @@
     "url": "https://github.com/dt-fe/react-deep-match/issues"
   },
   "homepage": "https://github.com/dt-fe/react-deep-match",
-  "author": "solesnip@gmail.com",
+  "author": "linhuiw",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^15.0.22",
