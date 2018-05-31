@@ -4,7 +4,7 @@
 
 React-deep-match support regular expression matches in a reactDom or a string; and wrap each match a react node, also support custom wrap;
 
-[See the demo](https://dt-fe.github.io/react-deep-match/)
+[See the demo](https://linhuiw.github.io/react-deep-match/)
 
 
 ## How To Use
