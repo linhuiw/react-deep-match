@@ -27,7 +27,7 @@ const deepReplace = (text: string | any, reg: RegExp, _wrap: Function, parentInd
         return deepReplace(element, reg, _wrap, parentIndex);
       });
       return _text;
-    } else {
+    } else if (_text.props.children) {
       _text.props.children = deepReplace(text.props.children, reg, _wrap, parentIndex);
       return _text;
     }
