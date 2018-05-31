@@ -46,8 +46,8 @@ class App extends React.Component<any, State> {
     }
     return regex;
   }
-  warpMatches = (match: string) => {
-    return <span className="highlight">{match}</span>;
+  warpMatches = (match: string, index: string) => {
+    return <span className="highlight" key={index}>{match}</span>;
   }
   render() {
     const { find } = this.state;

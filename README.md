@@ -64,7 +64,7 @@ Reac-deep-match supports these props;
 
 - text(string | ReactNode): Text or ReactNode, you want to search for
 - find(string | RegExp): Text or a RegExp, the rules you want to match text
-- wrap(Function): A Function, you want to wrap your matched texts, argument is the matched text
+- wrap((match: string, index: string) => string | React.ReactNode): A Function, you want to wrap your matched texts, argument is the matched text
 
 ## Related
 
