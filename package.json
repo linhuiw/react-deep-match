@@ -1,6 +1,6 @@
 {
   "name": "react-deep-match",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a deep regex match component for react",
   "main": "lib/index.js",
   "types": "lib/src/index.d.ts",
@@ -20,12 +20,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dt-fe/react-deep-match.git"
+    "url": "https://github.com/linhuiw/react-deep-match.git"
   },
   "bugs": {
-    "url": "https://github.com/dt-fe/react-deep-match/issues"
+    "url": "https://github.com/linhuiw/react-deep-match/issues"
   },
-  "homepage": "https://github.com/dt-fe/react-deep-match",
+  "homepage": "https://github.com/linhuiw/react-deep-match",
   "author": "linhuiw",
   "license": "MIT",
   "devDependencies": {
