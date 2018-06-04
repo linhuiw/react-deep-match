@@ -1,6 +1,6 @@
 {
   "name": "react-deep-match",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a deep regex match component for react",
   "main": "lib/index.js",
   "types": "lib/src/index.d.ts",
