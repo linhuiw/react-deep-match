@@ -1,8 +1,8 @@
 # React-deep-match
 
-🔍  A deep regex match component for react, support reactNode match.
+🔍  A deep regex match component for React, support ReactNode match.
 
-React-deep-match support regular expression matches in a reactDom or a string; and wrap each match a react node, also support custom wrap;
+React-deep-match support regular expression matches in a ReactDom or a string; and wrap each match a react node, also support custom wrap;
 
 [See the demo](https://linhuiw.github.io/react-deep-match/)
 
