@@ -60,7 +60,7 @@ import DeepMatch from 'react-deep-match';
 ```
 
 ## API
-Reac-deep-match supports these props;
+react-deep-match supports these props;
 
 - text(string | ReactNode): Text or ReactNode, you want to search for
 - find(string | RegExp): Text or a RegExp, the rules you want to match text
